@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+	  <meta http-equiv="X-UA-Compatible" content="IE=8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" href="assets/css/FontAwesome.css">
+	</head>
+	<body>
+    <div class="mainBlock">
+      <div class="gameMap">
+        <div class="gameMap_user">
+          <div class="gameMap_user_info">
+            <p>Поле с твоими кораблями</p>
+            <p id="userStateShip"> У Вас 0 кораблей </p>
+          </div>
+          <table id='gameMapUserTable'></table>
+        </div>
+        <div class="gameMap_attack">
+          <div class="gameMap_attack_info">
+            <p>Поле для атаки</p>
+            <p id="botStateShip"> У Компьютера 0 кораблей </p>
+          </div>
+          <table id='gameMapAttackTable'></table>
+        </div>
+      </div>
+      <div class="gameInfo">
+        <div id="gameInfoChat" class="gameInfo_chat"></div>
+        <div class="gameInfo_form">
+          <input id="gameInfoFormInput"/>
+          <button id="gameInfoFormButton">Написать</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery1.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+</html>
